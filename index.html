@@ -1,0 +1,166 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Zane Vom Portfolio</title>
+  <link rel="stylesheet" href="style.css">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/7.0.1/css/all.min.css" integrity="sha512-2SwdPD6INVrV/lHTZbO2nodKhrnDdJK9/kg2XD1r9uGqPo1cUbujc+IYdlYdEErWNu69gVcYgdxlmVmzTWnetw==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;600&display=swap" rel="stylesheet">
+</head>
+<body>
+
+  <header class="header">
+    <a href="#home" class="logo">
+      Zane <span>Vom</span>
+    </a>
+
+    <i class="fa-sharp fa-solid fa-bars" id="menu-icon"></i>
+
+    <nav class="navbar">
+      <a href="#home" class="active">Home</a>
+      <a href="#projects">Projects</a>
+      <a href="#skills">Skills</a>
+      <a href="#contact">Contact</a>
+    </nav>
+  </header>
+  
+  <section class="home" id="home">
+    <div class="home-content">
+      <h3>Hi👋</h3>
+      <h1>It's <span>Zane</span></h1>
+      <p>I am a graduate from the University of New South Wales where I studied Computer Science. Outside of coding, I have hosted fundraising events that have contributed to mental health and wellbeing, and interacted and engaged with community in university college.</p>
+
+      <div class="social-icons">
+        <a href="https://www.linkedin.com/in/zane-vom-034555247/" target="_blank" rel="noopener noreferrer"><i class="fa-brands fa-square-linkedin"></i></a>
+        <a href="https://github.com/Oaissis" target="_blank" rel="noopener noreferrer"><i class="fa-brands fa-github"></i></a>
+      </div>
+
+    </div>
+    <div class="home-img">
+      <img src="assets/image.jpg" alt="">
+    </div>
+  </section>
+
+  <section class="projects" id="projects">
+    <h2 class="heading">Projects</h2>
+
+    <div class="projects-container">
+
+      <div class="projects-box">
+        <img src="assets/blue-and-black.jpg" alt="">
+        <div class="projects-info">
+          <h4>Portfolio Website</h4>
+          <p>Blue and Black</p>
+          <a href="http://127.0.0.1:5503/index.html" target="_blank" rel="noopener noreferrer">
+            <i class="fa-solid fa-link"></i>
+          </a>
+        </div>
+      </div>
+
+      <div class="projects-box">
+        <img src="assets/blue-and-white.jpg" alt="">
+        <div class="projects-info">
+          <h4>Portfolio Website</h4>
+          <p>Blue and White</p>
+          <a href="http://127.0.0.1:5501/index.html" target="_blank" rel="noopener noreferrer">
+            <i class="fa-solid fa-link"></i>
+          </a>
+        </div>
+      </div>
+
+      <div class="projects-box">
+        <img src="assets/purple-and-black.jpg" alt="">
+        <div class="projects-info">
+          <h4>Portfolio Website</h4>
+          <p>Purple and Black</p>
+          <a href="http://127.0.0.1:5502/index.html" target="_blank" rel="noopener noreferrer">
+            <i class="fa-solid fa-link"></i>
+          </a>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <section class="skills" id="skills">
+    <h2 class="heading">Skills</h2>
+
+    <div class="skill-bars">
+
+      <div class="bar">
+        <div class="info">
+          <span>HTML</span>
+        </div>
+        <div class="progress-line html">
+          <span></span>
+        </div>
+      </div>
+      <div class="bar">
+        <div class="info">
+          <span>CSS</span>
+        </div>
+        <div class="progress-line css">
+          <span></span>
+        </div>
+      </div>
+      <div class="bar">
+        <div class="info">
+          <span>Python</span>
+        </div>
+        <div class="progress-line python">
+          <span></span>
+        </div>
+      </div>
+      <div class="bar">
+        <div class="info">
+          <span>C</span>
+        </div>
+        <div class="progress-line c">
+          <span></span>
+        </div>
+      </div>
+      <div class="bar">
+        <div class="info">
+          <span>Java</span>
+        </div>
+        <div class="progress-line java">
+          <span></span>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <section class="contact" id="contact">
+    <h2 class="heading">Contact <span>Me</span></h2>
+
+    <form method="POST" action="https://formsubmit.co/d7a3a9ecbb0abb25b3f2d181babcd269" enctype="multipart/form-data" />
+      <div class="input-box">
+        <input type="text" name="name" placeholder="Full Name" required>
+        <input type="email" name="email" placeholder="Email" required>
+        <input type="subject" name="subject" placeholder="Subject" required>
+        <input type="hidden" name="_subject" value="New submission!" required>
+        <textarea name="message" cols="30" rows="10" placeholder="Your Message" required></textarea>
+        <input type="file" name="attachment" accept="image/png, image/jpeg">
+        <button type="submit" class="btn">Send Message</button>
+      </div>
+    </form>
+  </section>
+
+  <footer class="footer">
+
+    <div class="social">
+      <a href="https://www.linkedin.com/in/zane-vom-034555247/" target="_blank" rel="noopener noreferrer"><i class="fa-brands fa-square-linkedin"></i></a>
+      <a href="https://github.com/Oaissis" target="_blank" rel="noopener noreferrer"><i class="fa-brands fa-github"></i></a>
+    </div>
+
+    <p class="copyright">
+      © Zane Vom | All Rights Reserved
+    </p>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>
